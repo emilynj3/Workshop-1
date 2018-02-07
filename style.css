@@ -1,0 +1,170 @@
+/* ADD YOUR CSS STYLES BELOW */
+
+.left-half {
+  width: 50%;
+  background: red;
+  height: 100%;
+  float: left
+}
+
+.right-half {
+  width: 50%;
+  background: blue;
+  height: 100%;
+  float: left
+}
+
+.top-left {
+  width: 100%;
+  height: 50%;
+  float: left;
+  background: yellow
+}
+
+.bottom-left {
+  width: 100%;
+  height: 50%;
+  float: left;
+  background: red
+}
+
+.bottom-left-baby {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: white
+}
+
+.top-babies {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.baby-1 {
+  background: yellow
+}
+
+.baby-2 {
+  background: blue
+}
+
+.baby-3 {
+  background: blue
+}
+
+.baby-4 {
+  background: yellow
+}
+
+.top-right {
+  width: 100%;
+  height: 50%;
+  float: left;
+  background: red
+}
+
+.bottom-right {
+  width: 100%;
+  height: 50%;
+  float: left;
+  background: red
+}
+
+.top-right-baby {
+  width: 100%;
+  height: 50%;
+  float: left;
+  background: yellow
+}
+
+.bottom-babies {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.bottom-baby-1 {
+  background: blue
+}
+
+.bottom-baby-2 {
+  background: white
+}
+
+.bottom-baby-3 {
+  background: white
+}
+
+.bottom-baby-4 {
+  background: blue
+}
+
+
+/* IF SCREEN SIZE IS BETWEEN 300px and 0px */
+
+@media screen and (max-width: 600px) and (min-width: 0px) {
+  .bottom-baby-3 {
+    background: blue;
+  }
+  .bottom-baby-2 {
+    background: blue;
+  }
+  .bottom-left-baby {
+    background: blue
+  }
+  .bottom-left {
+    background: blue
+  }
+  .baby-2 {
+    background: yellow
+  }
+  .baby-3 {
+    background: yellow
+  }
+}
+
+
+/* DON'T DELETE THIS */
+
+#flag-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
